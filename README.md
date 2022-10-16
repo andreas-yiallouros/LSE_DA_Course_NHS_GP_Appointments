@@ -3,17 +3,21 @@
 Analyse data to get closer to understanding the problem of the NHS incurring significant, potentially avoidable costs when patients miss general practitioner (GP) appointments.
 ### Motivation
 We are motivated to help decision-makers at the NHS and in government understand this problem better because it matters.\
-Healthcare is important for our society and for each of us and our loved ones individually, and helping the NHS be more cost effective can free resources that can be invested in services that save and improve lives.
+Healthcare is important for our society, and for each of us and our loved ones individually. Helping the NHS be more cost effective can free resources that can be invested in services that improve and save lives.
 ## Initial questions
-The key initial question is about the reasons why people may miss their appointments.
-To begin with we will address the following two questions:
+The key initial question is about the reasons why people may miss their appointments.\
+\
+Relating to this key overarching question are the following two questions:
 1. What is the NHS staff capacity?
 2. What is the NHS staff utilisation?
+
+
+These two questions are important because if NHS staff is operating at the limit of their capacity / they are fully utilised reducing the number of missed appointments becomes more important and urgent.
 ## Technology
 We will use Python including
 * pandas
 * seaborn
-* beautifulsoup
+* Beautiful Soup
 ## Limitations and challenges
 [...]
 ## References
