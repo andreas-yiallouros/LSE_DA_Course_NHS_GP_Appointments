@@ -67,5 +67,22 @@ A key open question for understanding the data is why is the sum of appointments
 * df_national_categories: 296,046,770 
 
 
+## Data Analysis - summary of approach (end of week 3)
+**Question 1 - dates between which appointments are in our data**\
+I started by reviewing my notes from Activity 2 to see which DataFrames have ‘appointment_date’ in their columns. I changed the data type of the ‘appointment_date’ column in both relevant DataFrames from object to datetime. Then I used the min() and max() methods to find the earliest and latest dates.\
+\
+In case it becomes relevant later, I also changed the data type from ‘object’ to ‘datetime’ for the ‘appointment_month’ column in df_appointments_regional and df_national_categories.\
+\
+Having realised that the periods in the three DataFrames are different I went back and updated my notes for Activity 2 in my Notebook about the number of appointments being different across the three DataFrames.\
+\
+**Question 2 - service setting with the most appointments in North West London from 1 January to 1 June 2022**\
+I started by creating a subset of df_national_categories using the == logic operator. Then I created a second subset based on the first filtering for the period in question, using the ‘>’, ‘<’, and ‘&’ logic operators. Then I used groupby(), sum() and sort_values() to calculate the total number of appointments by service setting and get to the answer.\
+\
+**Questions 3 and 4 – month with the highest number of appointment and number of records per month**\
+I used the groupby(), sum(), sort_values(), and value_counts() functions to get to the answers to questions 3 and 4.
+
+## Further questions
+How does the analysis so far get us closer to informing decisions that may reduce the number of missed appointments?
+
 ## Updates to this README file
 We will be updating this README file regularly as the project evolves. You may want to keep checking back.
