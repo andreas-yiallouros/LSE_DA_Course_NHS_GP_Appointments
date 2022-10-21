@@ -100,5 +100,28 @@ Looking across the three visualisations, the lines for appointments in the Gener
 ### Seasonal visualisations
 The four plots with appointments per day and service setting for each season from summer 2021 to Spring 2022show a consistent pattern of General Practice appointment at much higher numbers compared to the other service settings, especially during weekdays from Monday to Friday. The also show consistently GP appointment numbers are highest at the start of the week and reduce as the week progresses.
 
+## Insights and questions from analysing the Twitter data (end of week 5)
+
+### Number of tweets and topics
+1,174 tweets is a relatively small number\
+The hashtags seem to be clustered around health / medicine and technology
+
+Whilst hashtags can provide insights, they can often be too generic or high level for them to be insightful on their own. Other analysis such as sentiment or search for specific key words may help.\
+\
+What precisely were the questions that the team who prepared the ‘tweets.csv; file had in mind?
+
+How was the data in ‘tweets.csv’ obtained? For example,\
+what period does it cover?\
+what was it filtered on?
+
+
+
+### Focusing on the hashtags with the highest counts
+There are 47 hashtags with a count of more than 10.
+Focusing on the hashtags with the highest counts can be a reasonable strategy on the basis that it may allow us to identify topics that are popular and therefore important.\ 
+However, we might be more effective in understanding why appointments may be missed if we supplemented our analysis with questions such as ones around what Twitter data can tell us specifically about missing appointments.\
+\
+We will return to improve the visualisations to have productive discussions with the team and the NHS.
+
 ## Updates to this README file
 We will be updating this README file regularly as the project evolves. You may want to keep checking back.
