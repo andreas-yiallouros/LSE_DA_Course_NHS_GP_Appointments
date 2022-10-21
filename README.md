@@ -84,5 +84,21 @@ I used the groupby(), sum(), sort_values(), and value_counts() functions to get 
 ## Further questions
 How does the analysis so far get us closer to informing decisions that may reduce the number of missed appointments?
 
+## Visualise and identify initial trendes (end of week 4)
+### Monthly visualisations
+#### Service settings
+The General Practice service setting has by far and consistently the highest number of appointments compared to the other three plus the unmapped.
+
+#### Context type
+The Care Related Encounter context type has by far and consistently the highest number of appointments compared to the Inconsistent Mapping and Unmapped categories.
+
+#### National categories
+The General Consultation Routine category has by far and consistently the highest number of appointments compared to all the other categories.\
+\
+Looking across the three visualisations, the lines for appointments in the General Practice, Care Related Encounter, and General Consultation Routine are similar indicating they likely represent approximately the same population of appointments. These three lines show variation from month to month. The lines for most other categories are relatively flat, except for six of the lines in national categories, five of which seem to follow a similar pattern as the General Consultation line.
+
+### Seasonal visualisations
+The four plots with appointments per day and service setting for each season from summer 2021 to Spring 2022show a consistent pattern of General Practice appointment at much higher numbers compared to the other service settings, especially during weekdays from Monday to Friday. The also show consistently GP appointment numbers are highest at the start of the week and reduce as the week progresses.
+
 ## Updates to this README file
 We will be updating this README file regularly as the project evolves. You may want to keep checking back.
