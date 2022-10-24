@@ -19,7 +19,7 @@ We will use Python including
 * seaborn
 * Beautiful Soup
 ## Limitations and challenges
-[...]
+See Jupyter Notebook.
 ## References
 [NHS Digital, 2022, Appointments in general practice: supporting information, digital.nhs.uk, reviewed on 5 September 2022](https://digital.nhs.uk/data-and-information/publications/statistical/appointments-in-general-practice/appointments-in-general-practice-supporting-information#guide-to-data-files)
 
